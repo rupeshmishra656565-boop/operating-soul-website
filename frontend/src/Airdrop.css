@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #0a0a0a;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(0,255,136,0.2) 0%, rgba(0,0,0,0) 70%);
+  z-index: -1;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #00ff88;
+  margin-bottom: 5px;
+  text-shadow: 0 0 10px #00ff88;
+}
+
+.subtitle {
+  color: #888;
+  margin-bottom: 40px;
+}
+
+.airdrop-box {
+  background: #111;
+  border: 1px solid #333;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+input {
+  width: 80%;
+  padding: 12px;
+  margin: 20px 0;
+  background: #222;
+  border: 1px solid #444;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #00ff88;
+}
+
+button {
+  width: 85%;
+  padding: 12px;
+  background: #00ff88;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #00cc6a;
+  box-shadow: 0 0 15px #00ff88;
+}
+
+.message {
+  margin-top: 20px;
+  color: #00ff88;
+}
