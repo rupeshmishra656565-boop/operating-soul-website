@@ -161,12 +161,12 @@ export default function App() {
         <div className={`hero-body anim-fade${heroInView ? ' in' : ''}`}>
           <div className="live-badge">
             <span className="live-dot" />
-            Phase 1 Airdrop — Now Live
+            Phase 1 Airdrop — Coming Soon
           </div>
           <h1>The <em>Soul</em><br />of Web3</h1>
           <p className="hero-desc">
             Operating Soul is a next-generation blockchain engineered for zero-gas
-            transactions, AI-driven smart contract security, and limitless scalability.
+            transactions, Super Fast Transaction, AI-driven smart contract security, and limitless scalability.
           </p>
           <div className="hero-actions">
             <a href="#airdrop" className="btn-primary">
@@ -263,7 +263,7 @@ export default function App() {
                 <div className="phase-content-col">
                   <div className="phase-card">
                     {ph.status === 'active' && (
-                      <span className="live-badge-sm"><span className="live-dot" />Live Now</span>
+                      <span className="live-badge-sm"><span className="live-dot" />Coming Soon</span>
                     )}
                     <h3>{ph.label}</h3>
                     <ul>
